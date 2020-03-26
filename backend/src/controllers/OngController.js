@@ -24,5 +24,10 @@ module.exports = {
     {
         const ongs = await connection('ong').select('*');
         return res.json(ongs);
+    },
+
+    async delete(req, res)
+    {
+        await connection('ong').select('*').delete(); 
     }
 };

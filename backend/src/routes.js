@@ -14,6 +14,9 @@ routes.post('/ongs', ongController.create);
 /* Lists all registered ongs */
 routes.get('/ongs', ongController.index);
 
+/* Deletes all ongs (only use for development tests) */
+//routes.delete('/ongs/del', ongController.delete);
+
 /* Registers a new incident */
 routes.post('/incident', incidentController.create);
 
