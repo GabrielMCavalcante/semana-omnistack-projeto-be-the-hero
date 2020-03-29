@@ -16,9 +16,11 @@
 - CSS3
 - SCSS
 - React Native
+- Expo
+- Intl
 - Node
   - Express
-  - Knex
+  - Knex com SQLite3
   - Axios
   - Cors
 </br>
