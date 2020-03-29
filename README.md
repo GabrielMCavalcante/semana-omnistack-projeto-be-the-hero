@@ -20,10 +20,33 @@
   - Express
   - Knex
   - Axios
+  - Cors
 </br>
 
 [Voltar ao topo](#projeto-be-the-hero)
 
 ## Imagens do projeto
+
+### Versão Web
+<br>
+
+- <p>Página de login</p>
+![login-page](img/web-frontpage.jpg)
+- <p>Página de registro</p>
+![register-ong-page](img/web-registerOng.jpg)
+- <p>Página do perfil da ONG</p>
+![incidents-page](img/web-incidents.jpg)
+- <p>Página de criação de um novo caso</p>
+![register-incident-page](img/web-registerIncident.jpg)
+
+### Versão Mobile
+<br>
+
+- <p>Página principal</p>
+<img src="img/mobile-frontpage.jpeg" width="300px" height="500px" />
+- <p>Página de detalhes do caso</p>
+<img src="img/mobile-detailpage.jpeg" width="300px" height="500px" />
+- <p>Página de detalhes do caso - Contato com a ONG</p>
+<img src="img/mobile-ongcontact.jpeg" width="300px" height="500px" />
 
 [Voltar ao topo](#projeto-be-the-hero)
