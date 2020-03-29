@@ -61,7 +61,6 @@ export default function NewIncident()
                     <textarea value={incident_desc} onChange={e=>setDesc(e.target.value)} placeholder="Descrição"/>
                     <input value={incident_value} onChange={e=>setValue((e.target.value).replace(',', '.'))} placeholder="Valor em Reais"/>
 
-                    <button type="button">Cancelar</button>
                     <button type="submit" className="button">Cadastrar</button>
                 </form>
            </div>
