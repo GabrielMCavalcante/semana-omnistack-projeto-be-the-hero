@@ -23,6 +23,7 @@
   - Knex com SQLite3
   - Axios
   - Cors
+  - Celebrate (Integração com Joi)
 </br>
 
 [Voltar ao topo](#projeto-be-the-hero)
