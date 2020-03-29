@@ -13,10 +13,13 @@
 ## Tecnologias utilizadas
 
 - React
+- CSS3
+- SCSS
 - React Native
 - Node
   - Express
   - Knex
+  - Axios
 </br>
 
 [Voltar ao topo](#projeto-be-the-hero)
