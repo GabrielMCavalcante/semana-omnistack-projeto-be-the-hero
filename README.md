@@ -44,8 +44,10 @@
 
 - <p>Página principal</p>
 <img src="img/mobile-frontpage.jpeg" width="300px" height="500px" />
+
 - <p>Página de detalhes do caso</p>
 <img src="img/mobile-detailpage.jpeg" width="300px" height="500px" />
+
 - <p>Página de detalhes do caso - Contato com a ONG</p>
 <img src="img/mobile-ongcontact.jpeg" width="300px" height="500px" />
 
