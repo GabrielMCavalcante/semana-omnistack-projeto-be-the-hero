@@ -23,7 +23,7 @@ export default function Incidents() {
 
     async function loadIncidents() {
         if (loading) return;
-
+        
         if (total > 0 && incident.length == total) return;
 
         setLoading(true);
@@ -36,15 +36,6 @@ export default function Incidents() {
         setTotal(response.headers['x-total-count']);
 
         setPage(page + 1);
-        setLoading(false);
-    }
-
-    async function reloadIncidents() {
-        const response = await api('incident');
-
-        setIncidents(response.data);
-        setTotal(response.headers['x-total-count']);
-        setPage(page-1);
         setLoading(false);
     }
 
@@ -63,9 +54,6 @@ export default function Incidents() {
 
             <Text style={styles.title}>Bem-vindo!</Text>
             <Text style={styles.description}>Escolha um dos casos abaixo e salve o dia.</Text>
-            <TouchableOpacity style={styles.reloadButton} onPress={reloadIncidents}>
-                <Feather name="refresh-cw" size={22} color="#e02041" />
-            </TouchableOpacity>
 
             <FlatList
                 style={styles.incidentList}

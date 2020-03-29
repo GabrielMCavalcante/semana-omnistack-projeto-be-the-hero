@@ -37,17 +37,6 @@ export default StyleSheet.create({
         color: '#737380'
     },
 
-    reloadButton: {
-        position: 'absolute',
-        right: 30,
-        top: 135,
-        borderStyle: 'solid',
-        borderColor: 'rgba(0,0,0,0.3)',
-        borderWidth: 1,
-        borderRadius: 16,
-        padding: 10
-    },
-
     incidentList: {
         marginTop: 32
     },
